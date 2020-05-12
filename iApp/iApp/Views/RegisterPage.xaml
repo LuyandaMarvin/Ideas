@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="iApp.Views.RegisterPage"
+             xmlns:viewModels="clr-namespace:iApp.ViewModels;assembly=iApp">
+
+    <ContentPage.BindingContext>
+        <viewModels:RegisterViewModel/>
+    </ContentPage.BindingContext>
+
+    <StackLayout Orientation="Vertical">
+        <Entry Text="{Binding Email}" 
+               Placeholder="Email"
+               FontSize="30"/>
+
+        <Entry Text="{Binding Password}" 
+               Placeholder="Password" 
+               IsPassword="True"
+               FontSize="30"/>
+
+        <Entry Text="{Binding ComfirmPassword}" 
+               Placeholder="ComfirmPassword" 
+               IsPassword="True"
+               FontSize="30"/>
+
+        <Button Command="{Binding RegisterCommand}" 
+                Text="Sing Up"
+                TextColor="White"
+                BackgroundColor="Crimson"
+                FontSize="30"/>
+
+        <Label Text="{Binding Message}" />
+
+        <Button Text="Already have an account" Clicked="Button_OnClicked"/>
+    </StackLayout>
+</ContentPage>

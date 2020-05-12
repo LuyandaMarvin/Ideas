@@ -1,0 +1,15 @@
+C:\Users\luyanda\source\repos\Ideas\IdeasApp\IdeasApp\bin\Debug\netstandard2.0\IdeasApp.deps.json
+C:\Users\luyanda\source\repos\Ideas\IdeasApp\IdeasApp\bin\Debug\netstandard2.0\IdeasApp.dll
+C:\Users\luyanda\source\repos\Ideas\IdeasApp\IdeasApp\obj\Debug\netstandard2.0\IdeasApp.csprojAssemblyReference.cache
+C:\Users\luyanda\source\repos\Ideas\IdeasApp\IdeasApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\luyanda\source\repos\Ideas\IdeasApp\IdeasApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\luyanda\source\repos\Ideas\IdeasApp\IdeasApp\obj\Debug\netstandard2.0\Views\RegisterPage.xaml.g.cs
+C:\Users\luyanda\source\repos\Ideas\IdeasApp\IdeasApp\obj\Debug\netstandard2.0\IdeasApp.csproj.CoreCompileInputs.cache
+C:\Users\luyanda\source\repos\Ideas\IdeasApp\IdeasApp\obj\Debug\netstandard2.0\IdeasApp.AssemblyInfoInputs.cache
+C:\Users\luyanda\source\repos\Ideas\IdeasApp\IdeasApp\obj\Debug\netstandard2.0\IdeasApp.AssemblyInfo.cs
+C:\Users\luyanda\source\repos\Ideas\IdeasApp\IdeasApp\bin\Debug\netstandard2.0\ref\IdeasApp.dll
+C:\Users\luyanda\source\repos\Ideas\IdeasApp\IdeasApp\bin\Debug\netstandard2.0\IdeasApp.pdb
+C:\Users\luyanda\source\repos\Ideas\IdeasApp\IdeasApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\luyanda\source\repos\Ideas\IdeasApp\IdeasApp\obj\Debug\netstandard2.0\IdeasApp.dll
+C:\Users\luyanda\source\repos\Ideas\IdeasApp\IdeasApp\obj\Debug\netstandard2.0\ref\IdeasApp.dll
+C:\Users\luyanda\source\repos\Ideas\IdeasApp\IdeasApp\obj\Debug\netstandard2.0\IdeasApp.pdb

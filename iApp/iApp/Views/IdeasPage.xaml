@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:viewModels="clr-namespace:iApp.ViewModels;assembly=iApp"
+             mc:Ignorable="d"
+             x:Class="iApp.Views.IdeasPage">
+    <ContentPage.BindingContext>
+        <viewModels:IdeasViewModel />
+    </ContentPage.BindingContext>
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Logout" Command="{Binding LogoutCommand}" Clicked="Logout_Clicked"/>
+    </ContentPage.ToolbarItems>
+
+    <StackLayout Orientation="Vertical">
+        <!--<Entry Text="{Binding AccessToken}" />-->
+
+        <Button Command="{Binding GetIdeasCommand}" Text="Get Ideas"/>
+
+        <Button Text="New Idea" Clicked="GoToNewIdeaPage_Clicked"/>
+        <Button Text="Search Ideas" Clicked="NavigateToSeach_OnClicked"/>
+
+            <ListView ItemsSource="{Binding Ideas}" HasUnevenRows="True" ItemTapped="IdeasListView_OnItemTapped" >
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Padding="20,20">
+                            <Label Text="{Binding Title}" />
+                            <Label Text="{Binding Category}" />
+                            <Label Text="{Binding Description}" />
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>
